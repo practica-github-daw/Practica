@@ -7,5 +7,9 @@ public class Coche {
 		super();
 		this.matricula = matricula;
 	}
+
+	public String getMatricula() {
+		return matricula;
+	}
 	
 }
