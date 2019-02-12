@@ -8,8 +8,8 @@ public class MainMovil {
 		Movil movil = new Movil();
 		// le asigno la marca,modelo y color
 		movil.setMarca("nokia");
-		movil.setModelo("3310");
-		movil.setColor("azul");
+		movil.setModelo("4652");
+		movil.setColor("negro");
 		//utilizo los metodos llamar,cortar e informar caracteristicas
 		movil.HacerLLamada();
 		movil.CortarLlamada();
