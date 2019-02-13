@@ -6,6 +6,7 @@ public class MainSmartphone {
 		// TODO Auto-generated method stub
 
 		// creo un objeto tipo smartphone con el constructor vacio
+		
 		Scanner sc=new Scanner (System.in);
 		Smartphone smartphone = new Smartphone();
 		//le asigno las nuevas caracteristicas
@@ -17,9 +18,10 @@ public class MainSmartphone {
 			smartphone.setMemoriaExterna(32);
 		//utilizo los metodos
 	        System.out.println(" A quien desea llamar ");
-	        sc.nextLine();
-			smartphone.HacerLLamada();
-	        smartphone.CortarLlamada();
+	        String nombre = sc.nextLine();
+			smartphone.setNombre(nombre);
+			smartphone.HacerLLamada(smartphone.getNombre());
+	        smartphone.CortarLlamada(smartphone.getNombre());
 	        System.out.println();
 	     //metodo sobreescrito   
 	        System.out.println(" La caracteristicas del movil son " + smartphone);
