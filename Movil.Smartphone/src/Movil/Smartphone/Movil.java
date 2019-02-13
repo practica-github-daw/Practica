@@ -13,7 +13,7 @@ public class Movil {
 	private String modelo;
 	private String color;
 	private String nombre;
-
+	
 	// constructor
 	public Movil(String marca, String modelo, String color,String nombre) {
 		this.marca = marca;
@@ -33,49 +33,6 @@ public class Movil {
 		return "marca=" + marca + ",modelo=" + modelo + ",color= " + color;
 	}
 
-	// metodo llamar
-	public void HacerLLamada(String nombre) {
-		System.out.println(" Llamada a " + nombre);
 	
-	}
-
-	// metodo cortar llamada
-	public void CortarLlamada(String nombre) {
-		System.out.println(" Cortar Llamada " + nombre);
-	}
-	// metodo informarcaracteristicas
-
-	public String getMarca() {
-		return marca;
-	}
-
-	public void setMarca(String marca) {
-		this.marca = marca;
-	}
-
-	public String getModelo() {
-		return modelo;
-	}
-
-	public void setModelo(String modelo) {
-		this.modelo = modelo;
-	}
-
-	public String getColor() {
-		return color;
-	}
-
-	public void setColor(String color) {
-		this.color = color;
-	}
-
-	public String getNombre() {
-		return nombre;
-	}
-
-	public void setNombre(String nombre) {
-		this.nombre = nombre;
-	}
-
 	
 }

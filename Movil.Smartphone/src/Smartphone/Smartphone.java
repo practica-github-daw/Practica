@@ -8,7 +8,7 @@ public class Smartphone extends Movil {
 	private int PixelesCamara;
 	private int MemoriaInterna;
 	private int MemoriaExterna;
-	
+	private String sumamemorias[];
 
 	// Constructor con las viejas y nuevas caracteristicas
 	public Smartphone(String marca, String modelo, String color,String nombre, int PixelesCamara, int MemoriaDiscoDuro,
