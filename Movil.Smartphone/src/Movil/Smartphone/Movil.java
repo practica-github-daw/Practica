@@ -15,10 +15,11 @@ public class Movil {
 	private String nombre;
 
 	// constructor
-	public Movil(String marca, String modelo, String color) {
+	public Movil(String marca, String modelo, String color,String nombre) {
 		this.marca = marca;
 		this.modelo = modelo;
 		this.color = color;
+		this.nombre = nombre;
 	}
 	// constructor vacio
 
@@ -66,6 +67,14 @@ public class Movil {
 
 	public void setColor(String color) {
 		this.color = color;
+	}
+
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
 	}
 
 }

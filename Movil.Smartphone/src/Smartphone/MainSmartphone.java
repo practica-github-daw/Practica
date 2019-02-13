@@ -17,9 +17,11 @@ public class MainSmartphone {
 			smartphone.setMemoriaExterna(32);
 		//utilizo los metodos
 	        System.out.println(" A quien desea llamar ");
-	        sc.nextLine();
-			smartphone.HacerLLamada();
-	        smartphone.CortarLlamada();
+	        String nombre = sc.nextLine();
+			smartphone.HacerLLamada(nombre);
+	        smartphone.CortarLlamada(nombre);
+	        smartphone.getNombre();
+	        smartphone.getNombre();
 	        System.out.println();
 	     //metodo sobreescrito   
 	        System.out.println(" La caracteristicas del movil son " + smartphone);

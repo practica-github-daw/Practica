@@ -11,8 +11,7 @@ public class MainMovil {
 		movil.setModelo("3310");
 		movil.setColor("azul");
 		//utilizo los metodos llamar,cortar e informar caracteristicas
-		movil.HacerLLamada();
-		movil.CortarLlamada();
+		
 		System.out.println();
 	
 	}
