@@ -11,13 +11,13 @@ public class Smartphone extends Movil {
 	private String nombre;
 
 	// Constructor con las viejas y nuevas caracteristicas
-	public Smartphone(String marca, String modelo, String color,String nombre, int PixelesCamara, int MemoriaDiscoDuro,
+	public Smartphone(String marca, String modelo, String color, String nombre, int PixelesCamara, int MemoriaDiscoDuro,
 			int MemoriaSD) {
-		super(marca, modelo, color,nombre);
+		super(marca, modelo, color, nombre);
 		this.PixelesCamara = PixelesCamara;
 		this.MemoriaInterna = MemoriaDiscoDuro;
 		this.MemoriaExterna = MemoriaSD;
-	
+
 	}
 
 	public Smartphone() {
@@ -25,10 +25,9 @@ public class Smartphone extends Movil {
 
 	@Override
 	public String toString() {
-	
+
 		return super.toString() + ",Pixelescamara:" + PixelesCamara + ",MemoriaInterna:" + MemoriaInterna
 				+ ",MemoriaExterna:" + MemoriaExterna;
-
 
 	}
 
