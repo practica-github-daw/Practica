@@ -37,7 +37,7 @@ public class Movil {
 	public void HacerLLamada(String nombre) {
 		System.out.println(" Llamada a " + nombre);
 	
-	}
+	} 
 
 	// metodo cortar llamada
 	public void CortarLlamada(String nombre) {
