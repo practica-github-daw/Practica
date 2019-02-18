@@ -1,6 +1,6 @@
 package primero;
 //Coche
-public class Coche {
+public class Coche { 
 	private String matricula;
 
 	public Coche(String matricula) {
